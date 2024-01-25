@@ -18,7 +18,7 @@ SegFormer with a ResNet50dilated + PPMdeepsup encoder and decoder architecture t
 ing a single number per pixel, representing the encoded semantic label in the ADE20K semantic categories.
 ![Figure2](/fig/Figure2.png)
 
-The dataset can be found here, and the code to prepare the Segformer dataset can be found here.
+The dataset can be found [here](https://drive.google.com/drive/folders/1_QZlS601vPEbiGORTF3KWj8qoM1H08vo?usp=drive_link), and the code to prepare the Segformer dataset can be found [here](SegformerDatasetGeneration_Visualization.ipynb).
 
 # Training
 
