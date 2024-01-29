@@ -10,7 +10,7 @@ To generate the dataset we use a publicly available [Window Detection dataset](h
 
 We create two kinds of image pair datasets for the FCN Architecture and the Segformer architecture. 
 
-Original images are resize and normalized for the FCN architecture.
+Original images are resized and normalized for the FCN architecture.
 ![Figure1](/fig/Figure1.png)
 
 We obtain SegFormer model labels including exterior windows, by using a pre-trained
@@ -27,9 +27,11 @@ We train two models a Fully Convolutional Network (FCN) and a Segformer model, u
 ![Comparison of FCN and Segformer on window segmentation](/fig/visual_results.png)
 
 ## Fully Convolutional Network (FCN)
-The code to train the FCN can be found [here](https://colab.research.google.com/github/zoedesimone/wwr-semantic-segmentation/blob/main/WWR_FCN_Training_Notebook.ipynb).
+The code to train the FCN can be found [here](https://colab.research.google.com/drive/1sYGX06puHNNSfna9eK0h0nC0geY6C1oZ?ouid=101108956433273489124&usp=drive_link).
 
 ## SegFormer
+The code to finetune the Segformer model can be found [here](https://colab.research.google.com/drive/1gRHIN5Rz3uwoi09rlp2AdZosWNNCR7ya?usp=drive_link).
 
-# Examples
+# Perspective Correction
+
 
