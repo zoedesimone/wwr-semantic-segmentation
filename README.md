@@ -22,5 +22,14 @@ The dataset can be found [here](https://drive.google.com/drive/folders/1_QZlS601
 
 # Training
 
+We train two models a Fully Convolutional Network (FCN) and a Segformer model, using the two datasets developed for these tasks outlined above.
+
+![Comparison of FCN and Segformer on window segmentation](/fig/visual_results.png)
+
+## Fully Convolutional Network (FCN)
+The code to train the FCN can be found [here](https://colab.research.google.com/github/zoedesimone/wwr-semantic-segmentation/blob/main/WWR_FCN_Training_Notebook.ipynb).
+
+## SegFormer
+
 # Examples
 
