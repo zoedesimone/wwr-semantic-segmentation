@@ -11,11 +11,11 @@ To generate the dataset we use a publicly available [Window Detection dataset](h
 We create two kinds of image pair datasets for the FCN Architecture and the Segformer architecture. 
 
 Original images are resized and normalized for the FCN architecture.
+
 ![Figure1](/fig/Figure1.png)
 
-We obtain SegFormer model labels including exterior windows, by using a pre-trained
-SegFormer with a ResNet50dilated + PPMdeepsup encoder and decoder architecture to detect the building area in the images, and overlay window masks developed for the FCN architecture(above). We converted the output to greyscale masks encod-
-ing a single number per pixel, representing the encoded semantic label in the ADE20K semantic categories.
+We obtain SegFormer model labels including exterior windows, by using a pre-trained SegFormer with a ResNet50dilated + PPMdeepsup encoder and decoder architecture to detect the building area in the images, and overlay window masks developed for the FCN architecture(above). We converted the output to greyscale masks encoding a single number per pixel, representing the encoded semantic label in the ADE20K semantic categories.
+
 ![Figure2](/fig/Figure2.png)
 
 The dataset can be found [here](https://drive.google.com/drive/folders/1_QZlS601vPEbiGORTF3KWj8qoM1H08vo?usp=drive_link), and the code to prepare the Segformer dataset can be found [here](SegformerDatasetGeneration_Visualization.ipynb).
@@ -32,6 +32,5 @@ The code to train the FCN can be found [here](https://colab.research.google.com/
 ## SegFormer
 The code to finetune the Segformer model can be found [here](https://colab.research.google.com/drive/1gRHIN5Rz3uwoi09rlp2AdZosWNNCR7ya?usp=drive_link).
 
-# Perspective Correction
 
 
