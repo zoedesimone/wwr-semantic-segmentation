@@ -18,7 +18,8 @@ We obtain SegFormer model labels including exterior windows, by using a pre-trai
 
 ![Figure2](/fig/Figure2.png)
 
-The dataset can be found [here](https://drive.google.com/drive/folders/1_QZlS601vPEbiGORTF3KWj8qoM1H08vo?usp=drive_link), and the code to prepare the Segformer dataset can be found [here](SegformerDatasetGeneration_Visualization.ipynb).
+The dataset can be found [here](https://drive.google.com/drive/folders/1_QZlS601vPEbiGORTF3KWj8qoM1H08vo?usp=drive_link), and the code to prepare the Segformer dataset is provided here:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Z4tDsHpla0bOaCVhvLfztEBwHJkJDP67?usp=sharing)
 
 # Training
 
@@ -27,10 +28,10 @@ We train two models a Fully Convolutional Network (FCN) and a Segformer model, u
 ![Comparison of FCN and Segformer on window segmentation](/fig/visual_results.png)
 
 ## Fully Convolutional Network (FCN)
-The code to train the FCN can be found [here](https://colab.research.google.com/drive/1sYGX06puHNNSfna9eK0h0nC0geY6C1oZ?ouid=101108956433273489124&usp=drive_link).
+The code to train the FCN can is provided here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sYGX06puHNNSfna9eK0h0nC0geY6C1oZ?ouid=101108956433273489124&usp=drive_link).
 
 ## SegFormer
-The code to finetune the Segformer model can be found [here](https://colab.research.google.com/drive/1gRHIN5Rz3uwoi09rlp2AdZosWNNCR7ya?usp=drive_link).
+The code to finetune the Segformer model is provided here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gRHIN5Rz3uwoi09rlp2AdZosWNNCR7ya?usp=drive_link).
 
 
 
