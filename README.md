@@ -37,4 +37,4 @@ The code to finetune the Segformer model is provided here: [![Open In Colab](htt
 You can find the [trained model weights here](https://drive.google.com/drive/folders/1HTOQCSBQIWkj8qrFVfp5pGC6PiQmJBN7?usp=sharing).
 
 # Inference
-Use the following Colab notebook to run inference on your own images using the trained FCN model: [![Open In Colab](https://colab.research.google.com/drive/1PpflhuNrAb0RAnFynYf9FCn2Xz2sJHyT?usp=drive_link)
+Use the following Colab notebook to run inference on your own images using the trained FCN model: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PpflhuNrAb0RAnFynYf9FCn2Xz2sJHyT?usp=drive_link)
