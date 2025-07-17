@@ -4,8 +4,16 @@ Official implementation of our [paper](https://arxiv.org/abs/2406.02706).
 # Introduction
 Window to Wall Ratios (WWR) are key to assessing the performance of buildings, such as the energy consumption, daylight conditions, and ventilation of buildings. Studies have shown that window area has a large impact on building performance and simulation. However, data to set up these environmental models and simulations is typically not available. Therefore, to set up simulations a standard WWR is typically assumed for all buildings, or, at best, it's applied on a building-by-building basis based on initial knowledge regarding the building type and/or age. This paper presents a methodology to predict WWR of buildings from external street view images using semantic segmentation to detect windows and wall regions from images.
 
-# Dataset Preparation
+# Run the Model on your own images
+Use the following Colab notebook to run WWR calculations on your own images using the trained Segformer model: [![Open In Colab](https://colab.research.google.com/drive/134owZy0_UB84IxZ4h0x-0uH940Grp3pU?usp=sharing)
 
+Use the following Colab notebook to run Window segmentation on your own images using the trained FCN model: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PpflhuNrAb0RAnFynYf9FCn2Xz2sJHyT?usp=drive_link)
+
+# Trained Model weights
+You can find the **FCN** [trained model weights here](https://drive.google.com/drive/folders/1HTOQCSBQIWkj8qrFVfp5pGC6PiQmJBN7?usp=sharing).
+You can find the **Segformer** [trained model weights here](https://drive.google.com/drive/folders/1PqjyLutdoXSaGhUr3kYJDzBu12rurLwh?usp=drive_link)
+
+# Dataset Preparation
 To generate the dataset we use a publicly available [Window Detection dataset](https://drive.google.com/drive/folders/1TfeIcQ8KlEvP1-ewGcTaj3SqU_IpoLUv) created using LabelMe, consisting of 2806 facade images.
 
 We create two kinds of image pair datasets for the FCN Architecture and the Segformer architecture. 
@@ -22,7 +30,6 @@ The dataset can be found [here](https://drive.google.com/drive/folders/1_QZlS601
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Z4tDsHpla0bOaCVhvLfztEBwHJkJDP67?usp=sharing)
 
 # Training
-
 We train two models a Fully Convolutional Network (FCN) and a Segformer model, using the two datasets developed for these tasks outlined above.
 
 ![Comparison of FCN and Segformer on window segmentation](/fig/visual_results.png)
@@ -32,12 +39,6 @@ The code to train the FCN can is provided here: [![Open In Colab](https://colab.
 
 ## SegFormer
 The code to finetune the Segformer model is provided here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gRHIN5Rz3uwoi09rlp2AdZosWNNCR7ya?usp=drive_link).
-
-# Trained Model weights
-You can find the [trained model weights here](https://drive.google.com/drive/folders/1HTOQCSBQIWkj8qrFVfp5pGC6PiQmJBN7?usp=sharing).
-
-# Inference
-Use the following Colab notebook to run inference on your own images using the trained FCN model: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PpflhuNrAb0RAnFynYf9FCn2Xz2sJHyT?usp=drive_link)
 
 # Citation
 ```
