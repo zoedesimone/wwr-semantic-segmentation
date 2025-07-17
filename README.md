@@ -5,9 +5,9 @@ Official implementation of our [paper](https://arxiv.org/abs/2406.02706).
 Window to Wall Ratios (WWR) are key to assessing the performance of buildings, such as the energy consumption, daylight conditions, and ventilation of buildings. Studies have shown that window area has a large impact on building performance and simulation. However, data to set up these environmental models and simulations is typically not available. Therefore, to set up simulations a standard WWR is typically assumed for all buildings, or, at best, it's applied on a building-by-building basis based on initial knowledge regarding the building type and/or age. This paper presents a methodology to predict WWR of buildings from external street view images using semantic segmentation to detect windows and wall regions from images.
 
 # Run the Model on your own images
-Use the following Colab notebook to run WWR calculations on your own images using the trained Segformer model: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/134owZy0_UB84IxZ4h0x-0uH940Grp3pU?usp=sharing)
+Use the following Colab notebook to run WWR calculations on your own images using the trained **Segformer** model: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/134owZy0_UB84IxZ4h0x-0uH940Grp3pU?usp=sharing)
 
-Use the following Colab notebook to run Window segmentation on your own images using the trained FCN model: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PpflhuNrAb0RAnFynYf9FCn2Xz2sJHyT?usp=drive_link)
+Use the following Colab notebook to run Window segmentation on your own images using the trained **FCN** model: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PpflhuNrAb0RAnFynYf9FCn2Xz2sJHyT?usp=drive_link)
 
 # Trained Model weights
 You can find the **FCN** [trained model weights here](https://drive.google.com/drive/folders/1HTOQCSBQIWkj8qrFVfp5pGC6PiQmJBN7?usp=sharing).
