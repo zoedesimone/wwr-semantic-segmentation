@@ -1,5 +1,5 @@
 # Window to Wall Ratio (WWR) Detection using SegFormer
-Official implementation of our paper.
+Official implementation of our [paper](https://arxiv.org/abs/2406.02706).
 
 # Introduction
 Window to Wall Ratios (WWR) are key to assessing the performance of buildings, such as the energy consumption, daylight conditions, and ventilation of buildings. Studies have shown that window area has a large impact on building performance and simulation. However, data to set up these environmental models and simulations is typically not available. Therefore, to set up simulations a standard WWR is typically assumed for all buildings, or, at best, it's applied on a building-by-building basis based on initial knowledge regarding the building type and/or age. This paper presents a methodology to predict WWR of buildings from external street view images using semantic segmentation to detect windows and wall regions from images.
@@ -38,3 +38,16 @@ You can find the [trained model weights here](https://drive.google.com/drive/fol
 
 # Inference
 Use the following Colab notebook to run inference on your own images using the trained FCN model: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PpflhuNrAb0RAnFynYf9FCn2Xz2sJHyT?usp=drive_link)
+
+# Citation
+```
+@misc{desimone2024windowwallratiodetection,
+      title={Window to Wall Ratio Detection using SegFormer}, 
+      author={Zoe De Simone and Sayandeep Biswas and Oscar Wu},
+      year={2024},
+      eprint={2406.02706},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2406.02706}, 
+}
+```
