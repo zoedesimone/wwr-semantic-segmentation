@@ -11,6 +11,7 @@ Use the following Colab notebook to run Window segmentation on your own images u
 
 # Trained Model weights
 You can find the **FCN** [trained model weights here](https://drive.google.com/drive/folders/1HTOQCSBQIWkj8qrFVfp5pGC6PiQmJBN7?usp=sharing).
+
 You can find the **Segformer** [trained model weights here](https://drive.google.com/drive/folders/1PqjyLutdoXSaGhUr3kYJDzBu12rurLwh?usp=drive_link)
 
 # Dataset Preparation
